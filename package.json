@@ -1,0 +1,23 @@
+{
+  "name": "pizza-app",
+  "version": "1.0.0",
+  "description": "This project consists of a simple REST API in Node.js that allows you to register pizzas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "sucrase": "^3.34.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
