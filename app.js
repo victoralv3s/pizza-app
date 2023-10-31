@@ -1,6 +1,8 @@
 // Import the Express.js framework and the home route.
+import './src/database';
 import express from 'express';
 import home from './src/routes/home';
+import 'dotenv/config';
 
 // Create a new Express.js application.
 class App {
